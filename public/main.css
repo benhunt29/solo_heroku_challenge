@@ -1,0 +1,95 @@
+.clearfix{
+	overflow: auto;
+}
+
+img{
+	float:right;
+	position: relative;
+	right: 60px;
+	box-shadow: 10px 10px 5px #888888;
+	padding: 0px 0px 0px 0px;
+
+}
+
+a{
+	display:block;
+	position: relative;
+	left: 71px;
+}
+header {
+	clear:both;
+	font-style: bold;
+	font-family: 'Arimo', Serif;
+	border-bottom-style: solid;
+	position: relative;
+	padding-bottom: 50px;
+	
+}
+
+article {
+	font-family: 'Arimo', Serif;
+	width: 80%;
+}
+
+article ul,li {
+	
+	position: relative;
+	top: 0px;
+	left: 40px;
+}
+
+article h1 {
+	font-size: 25px;
+	font-style:bold;
+	border-bottom: solid 1px;
+}
+
+header ul,p{
+	font-style: italic;
+	font-size: 30px;
+	position: relative;
+	padding: 20px 0px 20px 0px;
+	list-style: none;
+	width: 100%;
+	
+}
+header h1{
+	font-size: 50px;
+	border-bottom-style: solid;
+
+}
+
+li {
+    margin: 5px 10px 5px 1em;
+}
+
+ul li {
+
+    background-position: 0px center; 
+    padding-left: 15px;
+}
+
+.References {
+	padding-bottom:50px;
+	font-size: 25px;
+}
+
+.button {
+	color: white;
+	background-color: green;
+	width: 150px;
+	height: 50px;
+	box-shadow: none;
+	border: none;
+	margin: auto;
+}
+
+.button_hover {
+	background-color: black;
+	box-shadow: none;
+}
+
+body {
+	margin: auto;
+	width: 100%;
+}
