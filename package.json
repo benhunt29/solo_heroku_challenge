@@ -1,0 +1,12 @@
+{
+  "name": "solo_heroku_challenge",
+  "version": "1.0.0",
+  "description": "Solo Heroku Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Ben Hunt",
+  "license": "ISC"
+}
