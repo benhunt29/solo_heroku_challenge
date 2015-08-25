@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-	$("article, header, title").hide();
+	$("#everything").hide();
 	var show_resume = $("#showResume");
 	show_resume.text("Show Resume");
 	show_resume.addClass("button");
@@ -13,7 +13,7 @@ $(document).ready(function() {
 		$(this).addClass("button");
 	});
 	show_resume.on("click", function() {
-		$("article, header, title").toggle();
+		$("#everything").toggle();
 		console.log(show_resume.val());
 		if(show_resume.text() == "Show Resume"){
 			show_resume.text("Hide Resume");

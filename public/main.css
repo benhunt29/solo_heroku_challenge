@@ -2,6 +2,14 @@
 	overflow: auto;
 }
 
+.picture {
+	background-image: url("https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAALJAAAAJGM3ZmE2YTM5LTE1NGMtNDJkOS04MDdkLTA4YjlkYTczZjc4Yw.jpg");
+	height: 300px;
+	width: 300px;
+	background-repeat: no-repeat;
+;
+}
+
 img{
 	float:right;
 	position: relative;
